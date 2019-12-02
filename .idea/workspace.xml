@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d10364d1-b00d-4448-9ab2-e2da839c2142" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/.rustc_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rustprac-b66f39d243be56b3/bin-rustprac-b66f39d243be56b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rustprac-b66f39d243be56b3/bin-rustprac-b66f39d243be56b3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rustprac-b66f39d243be56b3/dep-bin-rustprac-b66f39d243be56b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rustprac-b66f39d243be56b3/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/deps/rustprac-b66f39d243be56b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/deps/rustprac-b66f39d243be56b3.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/deps/rustprac-b66f39d243be56b3.dSYM/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/deps/rustprac-b66f39d243be56b3.dSYM/Contents/Resources/DWARF/rustprac-b66f39d243be56b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/13elkuofxecc2zrz.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/1ptmzf98jll4bhps.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/25u7s5tvaaaci583.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/265violfzpj3j4xi.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/2nu4o0jb0fbvc9xa.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/3gys4v5f8ev3mrny.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/rustprac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/rustprac.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/debug/rustprac.dSYM" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="oxndJxuE" />
+  </component>
+  <component name="ProjectId" id="1UIkbVxUyo8QyAo85ElgcObCHuc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Run rustprac" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package rustprac --bin rustprac" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Run rustprac" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d10364d1-b00d-4448-9ab2-e2da839c2142" name="Default Changelist" comment="" />
+      <created>1575051568620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575051568620</updated>
+      <workItem from="1575051570716" duration="88000" />
+      <workItem from="1575249372787" duration="1304000" />
+    </task>
+    <task id="LOCAL-00001" summary="Beginning to learn Rust!">
+      <created>1575270793353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575270793353</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Beginning to learn Rust!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beginning to learn Rust!" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="303" y="29" key="CommitChangelistDialog2" timestamp="1575270793223">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="303" y="29" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1575270793223" />
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1575051658371">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1575051658371" />
+    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1575051658370">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1575051658370" />
+    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1575051658370">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1575051658370" />
+    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1575051658370">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1575051658370" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575270880564">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1575270880564" />
+    <state x="397" y="224" key="git4idea.merge.GitPullDialog" timestamp="1575270950409">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="397" y="224" key="git4idea.merge.GitPullDialog/0.23.1440.806@0.23.1440.806" timestamp="1575270950409" />
+  </component>
+</project>
