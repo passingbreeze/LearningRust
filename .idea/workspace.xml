@@ -138,10 +138,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Beginning to learn Rust!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="29" key="CommitChangelistDialog2" timestamp="1575270965930">
+    <state x="303" y="29" key="CommitChangelistDialog2" timestamp="1575271064062">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="303" y="29" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1575270965930" />
+    <state x="303" y="29" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1575271064062" />
     <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1575051658371">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
@@ -158,10 +158,14 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1575051658370" />
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575270973029">
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575271072823">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1575270973029" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1575271072823" />
+    <state x="471" y="224" key="git4idea.merge.GitMergeDialog" timestamp="1575271142444">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="471" y="224" key="git4idea.merge.GitMergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1575271142444" />
     <state x="397" y="224" key="git4idea.merge.GitPullDialog" timestamp="1575271044002">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
