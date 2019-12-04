@@ -13,14 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d10364d1-b00d-4448-9ab2-e2da839c2142" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/guessing_game.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tailRecur.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guessing_game.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/guessing_game.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/rustprac" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rustprac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/debug/rustprac.dSYM" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rustprac.dSYM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tailRecur.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/tailRecur.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.hideDetachedFileNotifications/Users/thomashong/Desktop/Coding/rustprac/src/guessing_game.rs" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/Users/thomashong/Desktop/Coding/rustprac/src/tailRecur.rs" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Run rustprac" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
@@ -113,7 +110,8 @@
       <workItem from="1575249372787" duration="2206000" />
       <workItem from="1575272442092" duration="114000" />
       <workItem from="1575422725696" duration="1199000" />
-      <workItem from="1575424726672" duration="2526000" />
+      <workItem from="1575424726672" duration="2566000" />
+      <workItem from="1575443886023" duration="1942000" />
     </task>
     <task id="LOCAL-00001" summary="Beginning to learn Rust!">
       <created>1575270793353</created>
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575271064166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="prac Rust!">
+      <created>1575430411273</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575430411273</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,37 +149,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Beginning to learn Rust!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beginning to learn Rust!" />
+    <MESSAGE value="prac Rust!" />
+    <option name="LAST_COMMIT_MESSAGE" value="prac Rust!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="741" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575424709883">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="741" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.806@0.23.1440.806" timestamp="1575424709883" />
-    <state x="303" y="29" key="CommitChangelistDialog2" timestamp="1575271064062">
+    <state x="303" y="29" key="CommitChangelistDialog2" timestamp="1575430411106">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="303" y="29" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1575271064062" />
-    <state width="452" height="194" key="GridCell.Tab.0.bottom" timestamp="1575429502287">
+    <state x="303" y="29" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1575430411106" />
+    <state width="711" height="194" key="GridCell.Tab.0.bottom" timestamp="1575445348966">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="711" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1575445300378" />
+    <state width="711" height="194" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1575445348966" />
+    <state width="711" height="194" key="GridCell.Tab.0.center" timestamp="1575445348966">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="711" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1575445300377" />
+    <state width="711" height="194" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1575445348966" />
+    <state width="711" height="194" key="GridCell.Tab.0.left" timestamp="1575445348965">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="711" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1575445300376" />
+    <state width="711" height="194" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1575445348965" />
+    <state width="711" height="194" key="GridCell.Tab.0.right" timestamp="1575445348966">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state width="711" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1575445300378" />
+    <state width="711" height="194" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1575445348966" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575430418925">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="452" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1575429502287" />
-    <state width="452" height="194" key="GridCell.Tab.0.center" timestamp="1575429502286">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state width="452" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1575429502286" />
-    <state width="452" height="194" key="GridCell.Tab.0.left" timestamp="1575429502286">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state width="452" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1575429502286" />
-    <state width="452" height="194" key="GridCell.Tab.0.right" timestamp="1575429502287">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state width="452" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1575429502287" />
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575271535193">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1575271535193" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1575430418925" />
     <state x="471" y="224" key="git4idea.merge.GitMergeDialog" timestamp="1575271142444">
       <screen x="0" y="23" width="1440" height="806" />
     </state>

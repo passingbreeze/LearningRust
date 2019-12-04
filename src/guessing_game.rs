@@ -14,6 +14,8 @@ fn main() {
 
         io::stdin().read_line(&mut guess)
             .expect("Failed to read line");
+        // 표준 입출력의 결과값은 Result<Ok, Err>
+        // 따라서, expect method나 match 구문으로 처리를 해줘야한다.
 
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
