@@ -13,30 +13,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d10364d1-b00d-4448-9ab2-e2da839c2142" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/.rustc_info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/.cargo-lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rustprac-b66f39d243be56b3/bin-rustprac-b66f39d243be56b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rustprac-b66f39d243be56b3/bin-rustprac-b66f39d243be56b3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rustprac-b66f39d243be56b3/dep-bin-rustprac-b66f39d243be56b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/.fingerprint/rustprac-b66f39d243be56b3/invoked.timestamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/deps/rustprac-b66f39d243be56b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/deps/rustprac-b66f39d243be56b3.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/deps/rustprac-b66f39d243be56b3.dSYM/Contents/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/deps/rustprac-b66f39d243be56b3.dSYM/Contents/Resources/DWARF/rustprac-b66f39d243be56b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/13elkuofxecc2zrz.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/1ptmzf98jll4bhps.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/25u7s5tvaaaci583.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/265violfzpj3j4xi.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/2nu4o0jb0fbvc9xa.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/3gys4v5f8ev3mrny.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/dep-graph.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/query-cache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3-3lf0ve6epfx1r/work-products.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/incremental/rustprac-3k7qzl9688h33/s-fib4qixu27-1rg2jp3.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/rustprac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/rustprac.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/debug/rustprac.dSYM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/guessing_game.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tailRecur.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/rustprac" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rustprac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/rustprac.dSYM" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rustprac.dSYM" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +29,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,6 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/Users/thomashong/Desktop/Coding/rustprac/src/guessing_game.rs" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Run rustprac" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
@@ -118,7 +110,10 @@
       <option name="presentableId" value="Default" />
       <updated>1575051568620</updated>
       <workItem from="1575051570716" duration="88000" />
-      <workItem from="1575249372787" duration="1304000" />
+      <workItem from="1575249372787" duration="2206000" />
+      <workItem from="1575272442092" duration="114000" />
+      <workItem from="1575422725696" duration="1199000" />
+      <workItem from="1575424726672" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="Beginning to learn Rust!">
       <created>1575270793353</created>
@@ -127,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575270793353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Beginning to learn Rust!">
+      <created>1575270966050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575270966050</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Beginning to learn Rust!">
+      <created>1575271064166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575271064166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,37 +147,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="Beginning to learn Rust!" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="741" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575424709883">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="741" y="180" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.806@0.23.1440.806" timestamp="1575424709883" />
     <state x="303" y="29" key="CommitChangelistDialog2" timestamp="1575271064062">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="303" y="29" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1575271064062" />
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom" timestamp="1575051658371">
+    <state width="452" height="194" key="GridCell.Tab.0.bottom" timestamp="1575429502287">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1575051658371" />
-    <state width="1358" height="194" key="GridCell.Tab.0.center" timestamp="1575051658370">
+    <state width="452" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1575429502287" />
+    <state width="452" height="194" key="GridCell.Tab.0.center" timestamp="1575429502286">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1575051658370" />
-    <state width="1358" height="194" key="GridCell.Tab.0.left" timestamp="1575051658370">
+    <state width="452" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1575429502286" />
+    <state width="452" height="194" key="GridCell.Tab.0.left" timestamp="1575429502286">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1575051658370" />
-    <state width="1358" height="194" key="GridCell.Tab.0.right" timestamp="1575051658370">
+    <state width="452" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1575429502286" />
+    <state width="452" height="194" key="GridCell.Tab.0.right" timestamp="1575429502287">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state width="1358" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1575051658370" />
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575271072823">
+    <state width="452" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1575429502287" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575271535193">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1575271072823" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1575271535193" />
     <state x="471" y="224" key="git4idea.merge.GitMergeDialog" timestamp="1575271142444">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="471" y="224" key="git4idea.merge.GitMergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1575271142444" />
-    <state x="397" y="224" key="git4idea.merge.GitPullDialog" timestamp="1575271044002">
+    <state x="397" y="224" key="git4idea.merge.GitPullDialog" timestamp="1575271636638">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="397" y="224" key="git4idea.merge.GitPullDialog/0.23.1440.806@0.23.1440.806" timestamp="1575271044002" />
+    <state x="397" y="224" key="git4idea.merge.GitPullDialog/0.23.1440.806@0.23.1440.806" timestamp="1575271636638" />
   </component>
 </project>
