@@ -14,9 +14,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d10364d1-b00d-4448-9ab2-e2da839c2142" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/guessing_game.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/guessing_game.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tailRecur.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/tailRecur.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/rustprac" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rustprac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/rustprac.d" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/rustprac.d" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +57,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.hideDetachedFileNotifications/Users/thomashong/Desktop/Coding/rustprac/src/guessing_game.rs" value="true" />
     <property name="org.rust.hideDetachedFileNotifications/Users/thomashong/Desktop/Coding/rustprac/src/tailRecur.rs" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/hongjeongmin/coding/learningRust/src/tailRecur.rs" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Run rustprac" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
@@ -112,6 +115,9 @@
       <workItem from="1575422725696" duration="1199000" />
       <workItem from="1575424726672" duration="2566000" />
       <workItem from="1575443886023" duration="1942000" />
+      <workItem from="1575709305716" duration="165000" />
+      <workItem from="1575709607980" duration="10699000" />
+      <workItem from="1575813513578" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="Beginning to learn Rust!">
       <created>1575270793353</created>
@@ -161,26 +167,30 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="303" y="29" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1575430411106" />
-    <state width="711" height="194" key="GridCell.Tab.0.bottom" timestamp="1575445348966">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="939" height="257" key="GridCell.Tab.0.bottom" timestamp="1575720761436">
+      <screen x="67" y="27" width="1013" height="1893" />
     </state>
     <state width="711" height="194" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1575445300378" />
     <state width="711" height="194" key="GridCell.Tab.0.bottom/0.23.1440.809@0.23.1440.809" timestamp="1575445348966" />
-    <state width="711" height="194" key="GridCell.Tab.0.center" timestamp="1575445348966">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="939" height="257" key="GridCell.Tab.0.bottom/67.27.1013.1893@67.27.1013.1893" timestamp="1575720761436" />
+    <state width="939" height="257" key="GridCell.Tab.0.center" timestamp="1575720761436">
+      <screen x="67" y="27" width="1013" height="1893" />
     </state>
     <state width="711" height="194" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1575445300377" />
     <state width="711" height="194" key="GridCell.Tab.0.center/0.23.1440.809@0.23.1440.809" timestamp="1575445348966" />
-    <state width="711" height="194" key="GridCell.Tab.0.left" timestamp="1575445348965">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="939" height="257" key="GridCell.Tab.0.center/67.27.1013.1893@67.27.1013.1893" timestamp="1575720761436" />
+    <state width="939" height="257" key="GridCell.Tab.0.left" timestamp="1575720761436">
+      <screen x="67" y="27" width="1013" height="1893" />
     </state>
     <state width="711" height="194" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1575445300376" />
     <state width="711" height="194" key="GridCell.Tab.0.left/0.23.1440.809@0.23.1440.809" timestamp="1575445348965" />
-    <state width="711" height="194" key="GridCell.Tab.0.right" timestamp="1575445348966">
-      <screen x="0" y="23" width="1440" height="809" />
+    <state width="939" height="257" key="GridCell.Tab.0.left/67.27.1013.1893@67.27.1013.1893" timestamp="1575720761436" />
+    <state width="939" height="257" key="GridCell.Tab.0.right" timestamp="1575720761436">
+      <screen x="67" y="27" width="1013" height="1893" />
     </state>
     <state width="711" height="194" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1575445300378" />
     <state width="711" height="194" key="GridCell.Tab.0.right/0.23.1440.809@0.23.1440.809" timestamp="1575445348966" />
+    <state width="939" height="257" key="GridCell.Tab.0.right/67.27.1013.1893@67.27.1013.1893" timestamp="1575720761436" />
     <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1575430418925">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
@@ -193,5 +203,15 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="397" y="224" key="git4idea.merge.GitPullDialog/0.23.1440.806@0.23.1440.806" timestamp="1575271636638" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/tailRecur.rs</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
