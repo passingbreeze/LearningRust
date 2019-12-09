@@ -1,1 +1,1 @@
-/Users/thomashong/Desktop/Coding/learningRust/target/debug/rustprac: /Users/thomashong/Desktop/Coding/learningRust/src/main.rs
+/home/hongjeongmin/coding/learningRust/target/debug/rustprac: /home/hongjeongmin/coding/learningRust/src/main.rs

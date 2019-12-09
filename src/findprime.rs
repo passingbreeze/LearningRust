@@ -3,7 +3,7 @@ use std::{io, vec};
 use std::io::Read;
 use std::f32::MANTISSA_DIGITS;
 
-const MAX_LEN : usize = 100_000_000;
+const MAX_LEN : u32 = 100_000_000;
 
 fn main(){
     let start : Instant = Instant::now();
