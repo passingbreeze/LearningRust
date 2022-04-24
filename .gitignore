@@ -1,9 +1,8 @@
-/target
-**/*.rs.bk
-*.lock
-
 # Created by https://www.gitignore.io/api/linux,clion,macos,windows
 # Edit at https://www.gitignore.io/?templates=linux,clion,macos,windows
+/target/*
+**/*.rs.bk
+*.lock
 
 ### CLion ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm

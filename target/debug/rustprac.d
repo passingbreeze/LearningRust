@@ -1,1 +1,1 @@
-/home/hongjeongmin/coding/learningRust/target/debug/rustprac: /home/hongjeongmin/coding/learningRust/src/main.rs
+H:\PracticeCoding\coding\learningRust\target\debug\rustprac.exe: H:\PracticeCoding\coding\learningRust\src\main.rs H:\PracticeCoding\coding\learningRust\src\practice\mod.rs H:\PracticeCoding\coding\learningRust\src\practice\thread_test.rs
