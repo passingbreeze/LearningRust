@@ -1,24 +1,19 @@
-use std::io;
 use std::time::Instant;
 use std::fs::File;
 use std::io::{ErrorKind, Write};
 
-fn main(){
+pub fn run() {
     let start = Instant::now();
-    let hellofile = File::open("hello.txt");
+    
+    let mut f = File::open("hello.txt").unwrap_or_else(|error| {
+        if error.kind() == ErrorKind::NotFound {
+            File::create("hello.txt").expect("Problem creating the file")
+        } else {
+            panic!("Problem opening the file: {:?}", error);
+        }
+    });
 
-    let mut f= match hellofile {
-        Ok(file) => file,
-        Err(error) => match error.kind() {
-            ErrorKind::NotFound => match File::create("hello.txt"){
-                Ok(fc) => fc,
-                Err(e) => panic!("Problem creating the file : {:?}", e),
-            },
-            other_error => panic!("Problem opening the file: {:?}", other_error),
-        },
-    };
-
-    f.write_all(b"Hello, world!");
+    f.write_all(b"Hello, world!").expect("Failed to write to file");
 
     println!("\nexec time : {:?}", start.elapsed());
 }

@@ -1,53 +1,46 @@
 use std::time::{Duration, Instant};
-use std::{io, vec};
-use std::io::Read;
-use std::f32::MANTISSA_DIGITS;
+use std::io;
 
 const MAX_LEN : u32 = 100_000_000;
 
-fn main(){
-    let start : Instant = Instant::now();
+pub fn run() {
+    let start: Instant = Instant::now();
 
-    let mut a : Vec<bool> = vec![false; MAX_LEN];
-    let mut inpnum : String = String::new();
+    let mut sieve: Vec<bool> = vec![false; MAX_LEN as usize];
+    let mut input_str: String = String::new();
 
-    io::stdin().read_line(&mut inpnum).expect("input Failure");
+    println!("Enter a number to find primes up to:");
+    io::stdin().read_line(&mut input_str).expect("input Failure");
 
-    let inpnum : u32 = inpnum.trim().parse().expect("Only Unsigned Integer");
+    let target_num: u32 = input_str.trim().parse().expect("Only Unsigned Integer");
 
-    if inpnum < MAX_LEN as u32 {
-        findPrime(&mut a, inpnum);
-    }
-    else {
+    if target_num < MAX_LEN {
+        find_primes(&mut sieve, target_num);
+    } else {
         println!("Input Number is greater than MAXSIZE");
     }
 
-    let duration : Duration = start.elapsed();
+    let duration: Duration = start.elapsed();
     println!("\nexec time : {:?}", duration);
 }
-//
-fn findPrime(arr : &mut Vec<bool>, to : u32) {
-    let mut from : usize = 2;
-    let to : usize = to as usize;
 
-    while from*from <= to {
-        if arr[from] {
-            from+=1;
-            continue;
-        }
-        let mut i = from+from as usize;
-        while i<=to {
-            print!("{} ", i);
-            arr[i] = true;
-            i+=from;
-        }
+fn find_primes(sieve: &mut [bool], to: u32) {
+    let to = to as usize;
 
-        println!();
-        from+=1;
+    let mut p = 2;
+    while p * p <= to {
+        if !sieve[p] {
+            let mut i = p * p;
+            while i <= to {
+                sieve[i] = true;
+                i += p;
+            }
+        }
+        p += 1;
     }
 
-    for i in 2..to as usize {
-        if !arr[i] {
+    for i in 2..=to {
+        if !sieve[i] {
             print!("{} ", i);
         }
     }

@@ -2,7 +2,7 @@ use std::thread;
 use std::sync::mpsc;
 use std::time::{Instant,Duration};
 
-pub fn thread_test(){
+pub fn run(){
     let start = Instant::now();
 
     let (tx, rx) = mpsc::channel();
