@@ -26,6 +26,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     // 현재 기본값으로 thread_test를 실행합니다.
     // thread_test::run();
 
-    fibonacci::run();
+    // fibonacci::run();
+
+    // shadowing::run();
+    collatz::run();
     Ok(())
 }

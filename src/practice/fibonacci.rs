@@ -1,5 +1,5 @@
-use std::io;
-use std::io::Write;
+use std::convert::TryInto;
+use super::helper;
 
 fn fib(n: u32) -> u32 {
     if n <= 1 {
@@ -12,24 +12,17 @@ fn fib(n: u32) -> u32 {
 }
 
 pub fn run() {
-    let mut input = String::new();
+    helper::flush_stdout("Enter a number for Fibonacci >> ");
+    let n: Result<u32, _> = helper::read_number().try_into();
 
-    print!("Enter a number for Fibonacci >> ");
-    // 출력을 플러시하여 입력 프롬프트가 즉시 나타나도록 합니다.
-    io::stdout().flush().expect("Flush Failed!");
-
-    io::stdin()
-        .read_line(&mut input)
-        .expect("Failed to read line");
-
-    // 문자열을 정수로 파싱합니다.
-    let n: u32 = match input.trim().parse() {
-        Ok(num) => num,
-        Err(_) => {
-            println!("Please enter a valid non-negative number.");
-            return;
+    match n {
+        Ok(n) => {
+            println!("fib({n}) = {}", fib(n));
+        },
+        Err(e) => {
+            println!("음수를 넣어서 에러가 났을것 같은데... 자세한건 아래로");
+            println!("{}", e.to_string());
         }
-    };
+    }
 
-    println!("fib({n}) = {}", fib(n));
 }

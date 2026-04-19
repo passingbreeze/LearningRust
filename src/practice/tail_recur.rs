@@ -1,14 +1,8 @@
-use std::io;
-use std::io::Write;
+use super::helper;
 
 pub fn run() {
-    let mut num = String::new();
-
-    print!("Enter number >> ");
-    io::stdout().flush().expect("Flush Failed!");
-
-    io::stdin().read_line(&mut num).expect("Input Failure.");
-    let num: i32 = num.trim().parse().expect("Only Integral Number Available.");
+    helper::flush_stdout("Enter number >> ");
+    let num = helper::read_number();
     println!("Chk input : {}", num);
 
     let result = factorial(num);
